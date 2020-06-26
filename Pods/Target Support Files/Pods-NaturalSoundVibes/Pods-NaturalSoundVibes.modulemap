@@ -1,0 +1,6 @@
+framework module Pods_NaturalSoundVibes {
+  umbrella header "Pods-NaturalSoundVibes-umbrella.h"
+
+  export *
+  module * { export * }
+}

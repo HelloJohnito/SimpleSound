@@ -1,0 +1,16 @@
+PODS:
+  - mopub-ios-sdk/Core (5.12.1)
+
+DEPENDENCIES:
+  - mopub-ios-sdk/Core (~> 5.12.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - mopub-ios-sdk
+
+SPEC CHECKSUMS:
+  mopub-ios-sdk: d1640225b34ad74700e2acddb116cac634fc45d8
+
+PODFILE CHECKSUM: 9a75ac8a67d6f09abcdf5084cadcf99b58df7b5b
+
+COCOAPODS: 1.9.1

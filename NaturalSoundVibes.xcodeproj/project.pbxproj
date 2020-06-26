@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62833EC65D4DFC42BEE9F6DA /* Pods_NaturalSoundVibes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE892A45AF674AB090C6702 /* Pods_NaturalSoundVibes.framework */; };
+		6DC1B900245F1BE300421459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B8FF245F1BE300421459 /* AppDelegate.m */; };
+		6DC1B908245F1BE400421459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B907245F1BE400421459 /* Assets.xcassets */; };
+		6DC1B90B245F1BE400421459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B909245F1BE400421459 /* LaunchScreen.storyboard */; };
+		6DC1B90E245F1BE400421459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B90D245F1BE400421459 /* main.m */; };
+		6DC1B91A245F1DA500421459 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B919245F1DA500421459 /* Sound.m */; };
+		6DC1B923245F202E00421459 /* Bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B91E245F202D00421459 /* Bird.mp3 */; };
+		6DC1B924245F202E00421459 /* Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B91F245F202D00421459 /* Rain.mp3 */; };
+		6DC1B925245F202E00421459 /* Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B920245F202E00421459 /* Night.mp3 */; };
+		6DC1B92B245F814700421459 /* Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B92A245F814700421459 /* Wind.mp3 */; };
+		6DC1B92D245F855E00421459 /* FirePlace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B92C245F855E00421459 /* FirePlace.mp3 */; };
+		6DC1B9382461345400421459 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B9372461345400421459 /* HomeViewController.m */; };
+		6DC1B93B2461367F00421459 /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B93A2461367F00421459 /* PageOneViewController.m */; };
+		6DC1B93E246137A400421459 /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B93D246137A400421459 /* PageTwoViewController.m */; };
+		6DC1B9412461EC5500421459 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B9402461EC5500421459 /* HomeView.m */; };
+		6DC1B9432462014200421459 /* FrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B9422462014200421459 /* FrameView.m */; };
+		6DC1B9482462224F00421459 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B9472462224F00421459 /* PageViewController.m */; };
+		6DC1B94E24625CBE00421459 /* City.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B94D24625CBE00421459 /* City.mp3 */; };
+		6DC1B95024625CE500421459 /* AirPlane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B94F24625CE500421459 /* AirPlane.mp3 */; };
+		6DC1B95424625D3E00421459 /* Volcano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B95324625D3D00421459 /* Volcano.mp3 */; };
+		6DC1B958246269DC00421459 /* Siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B957246269DB00421459 /* Siren.mp3 */; };
+		6DC1B95B2463292800421459 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B95A2463292800421459 /* ContainerViewController.m */; };
+		6DC1B95E24632AD900421459 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B95D24632AD900421459 /* MenuViewController.m */; };
+		6DC1B963246353C600421459 /* MenuOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B962246353C600421459 /* MenuOptionCell.m */; };
+		6DC1B9662463ABE800421459 /* AboutPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B9652463ABE800421459 /* AboutPageViewController.m */; };
+		6DC1B96924646AF200421459 /* TimerPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B96824646AF200421459 /* TimerPageViewController.m */; };
+		6DC1B9742467599F00421459 /* TimerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B9732467599F00421459 /* TimerHandler.m */; };
+		6DC1B976246876D700421459 /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B975246876D700421459 /* Thunder.mp3 */; };
+		6DC1B978246878C700421459 /* Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B977246878C700421459 /* Waves.mp3 */; };
+		6DC1B97E24687CE800421459 /* Walking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B97D24687CE800421459 /* Walking.mp3 */; };
+		6DC1B981246884E200421459 /* PageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC1B980246884E200421459 /* PageThreeViewController.m */; };
+		6DC1B983246885B500421459 /* Fan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B982246885B500421459 /* Fan.mp3 */; };
+		6DC1B9852468860A00421459 /* FireWorks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B9842468860A00421459 /* FireWorks.mp3 */; };
+		6DC1B9872468862400421459 /* PeopleTalking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B9862468862400421459 /* PeopleTalking.mp3 */; };
+		6DC1B98924688B2900421459 /* WaterStream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DC1B98824688B2900421459 /* WaterStream.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A43D46C11124D965726AEE9 /* Pods-NaturalSoundVibes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalSoundVibes.debug.xcconfig"; path = "Target Support Files/Pods-NaturalSoundVibes/Pods-NaturalSoundVibes.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4A8B902468BAA4003248F6 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		6DC1B8FB245F1BE300421459 /* NaturalSoundVibes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalSoundVibes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC1B8FE245F1BE300421459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DC1B8FF245F1BE300421459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DC1B907245F1BE400421459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC1B90A245F1BE400421459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC1B90C245F1BE400421459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC1B90D245F1BE400421459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DC1B918245F1D7A00421459 /* Sound.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		6DC1B919245F1DA500421459 /* Sound.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		6DC1B91E245F202D00421459 /* Bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bird.mp3; sourceTree = "<group>"; };
+		6DC1B91F245F202D00421459 /* Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain.mp3; sourceTree = "<group>"; };
+		6DC1B920245F202E00421459 /* Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Night.mp3; sourceTree = "<group>"; };
+		6DC1B92A245F814700421459 /* Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wind.mp3; sourceTree = "<group>"; };
+		6DC1B92C245F855E00421459 /* FirePlace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FirePlace.mp3; sourceTree = "<group>"; };
+		6DC1B9362461344400421459 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6DC1B9372461345400421459 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6DC1B9392461367400421459 /* PageOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageOneViewController.h; sourceTree = "<group>"; };
+		6DC1B93A2461367F00421459 /* PageOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageOneViewController.m; sourceTree = "<group>"; };
+		6DC1B93C2461377900421459 /* PageTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageTwoViewController.h; sourceTree = "<group>"; };
+		6DC1B93D246137A400421459 /* PageTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageTwoViewController.m; sourceTree = "<group>"; };
+		6DC1B93F2461EC4900421459 /* HomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		6DC1B9402461EC5500421459 /* HomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		6DC1B9422462014200421459 /* FrameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameView.m; sourceTree = "<group>"; };
+		6DC1B9442462014F00421459 /* FrameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameView.h; sourceTree = "<group>"; };
+		6DC1B9462462212100421459 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		6DC1B9472462224F00421459 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		6DC1B94D24625CBE00421459 /* City.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = City.mp3; sourceTree = "<group>"; };
+		6DC1B94F24625CE500421459 /* AirPlane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AirPlane.mp3; sourceTree = "<group>"; };
+		6DC1B95324625D3D00421459 /* Volcano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Volcano.mp3; sourceTree = "<group>"; };
+		6DC1B957246269DB00421459 /* Siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Siren.mp3; sourceTree = "<group>"; };
+		6DC1B9592463291800421459 /* ContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		6DC1B95A2463292800421459 /* ContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		6DC1B95C24632ACA00421459 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		6DC1B95D24632AD900421459 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		6DC1B96024633FA000421459 /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		6DC1B961246353B700421459 /* MenuOptionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuOptionCell.h; sourceTree = "<group>"; };
+		6DC1B962246353C600421459 /* MenuOptionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuOptionCell.m; sourceTree = "<group>"; };
+		6DC1B9642463ABD700421459 /* AboutPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutPageViewController.h; sourceTree = "<group>"; };
+		6DC1B9652463ABE800421459 /* AboutPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutPageViewController.m; sourceTree = "<group>"; };
+		6DC1B96724646AE700421459 /* TimerPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerPageViewController.h; sourceTree = "<group>"; };
+		6DC1B96824646AF200421459 /* TimerPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerPageViewController.m; sourceTree = "<group>"; };
+		6DC1B9722467599200421459 /* TimerHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerHandler.h; sourceTree = "<group>"; };
+		6DC1B9732467599F00421459 /* TimerHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerHandler.m; sourceTree = "<group>"; };
+		6DC1B975246876D700421459 /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunder.mp3; sourceTree = "<group>"; };
+		6DC1B977246878C700421459 /* Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Waves.mp3; sourceTree = "<group>"; };
+		6DC1B97D24687CE800421459 /* Walking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Walking.mp3; sourceTree = "<group>"; };
+		6DC1B97F246884D200421459 /* PageThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageThreeViewController.h; sourceTree = "<group>"; };
+		6DC1B980246884E200421459 /* PageThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageThreeViewController.m; sourceTree = "<group>"; };
+		6DC1B982246885B500421459 /* Fan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fan.mp3; sourceTree = "<group>"; };
+		6DC1B9842468860A00421459 /* FireWorks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FireWorks.mp3; sourceTree = "<group>"; };
+		6DC1B9862468862400421459 /* PeopleTalking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PeopleTalking.mp3; sourceTree = "<group>"; };
+		6DC1B98824688B2900421459 /* WaterStream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WaterStream.mp3; sourceTree = "<group>"; };
+		6DE88741246B2640000982B5 /* MoPub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MoPub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF6E06965C0996A7D0595F7 /* Pods-NaturalSoundVibes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalSoundVibes.release.xcconfig"; path = "Target Support Files/Pods-NaturalSoundVibes/Pods-NaturalSoundVibes.release.xcconfig"; sourceTree = "<group>"; };
+		7FE892A45AF674AB090C6702 /* Pods_NaturalSoundVibes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalSoundVibes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC1B8F8245F1BE300421459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62833EC65D4DFC42BEE9F6DA /* Pods_NaturalSoundVibes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0618E85F48B6521B048440B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DE88741246B2640000982B5 /* MoPub.framework */,
+				7FE892A45AF674AB090C6702 /* Pods_NaturalSoundVibes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC1B8F2245F1BE300421459 = {
+			isa = PBXGroup;
+			children = (
+				6DC1B8FD245F1BE300421459 /* NaturalSoundVibes */,
+				6DC1B8FC245F1BE300421459 /* Products */,
+				9B6AC654F4924444971B4EC3 /* Pods */,
+				0618E85F48B6521B048440B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC1B8FC245F1BE300421459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B8FB245F1BE300421459 /* NaturalSoundVibes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC1B8FD245F1BE300421459 /* NaturalSoundVibes */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B95F24633F8900421459 /* Utils */,
+				6DC1B914245F1CEE00421459 /* Model */,
+				6DC1B915245F1D1700421459 /* Controller */,
+				6DC1B916245F1D1E00421459 /* View */,
+				6DC1B91B245F201900421459 /* Audio */,
+				6DC1B8FE245F1BE300421459 /* AppDelegate.h */,
+				6DC1B8FF245F1BE300421459 /* AppDelegate.m */,
+				6DC1B907245F1BE400421459 /* Assets.xcassets */,
+				6DC1B909245F1BE400421459 /* LaunchScreen.storyboard */,
+				6DC1B90C245F1BE400421459 /* Info.plist */,
+				6DC1B90D245F1BE400421459 /* main.m */,
+				6D4A8B902468BAA4003248F6 /* Constants.h */,
+			);
+			path = NaturalSoundVibes;
+			sourceTree = "<group>";
+		};
+		6DC1B914245F1CEE00421459 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B918245F1D7A00421459 /* Sound.h */,
+				6DC1B919245F1DA500421459 /* Sound.m */,
+				6DC1B9722467599200421459 /* TimerHandler.h */,
+				6DC1B9732467599F00421459 /* TimerHandler.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DC1B915245F1D1700421459 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B9592463291800421459 /* ContainerViewController.h */,
+				6DC1B95A2463292800421459 /* ContainerViewController.m */,
+				6DC1B9362461344400421459 /* HomeViewController.h */,
+				6DC1B9372461345400421459 /* HomeViewController.m */,
+				6DC1B95C24632ACA00421459 /* MenuViewController.h */,
+				6DC1B95D24632AD900421459 /* MenuViewController.m */,
+				6DC1B9462462212100421459 /* PageViewController.h */,
+				6DC1B9472462224F00421459 /* PageViewController.m */,
+				6DC1B9392461367400421459 /* PageOneViewController.h */,
+				6DC1B93A2461367F00421459 /* PageOneViewController.m */,
+				6DC1B93C2461377900421459 /* PageTwoViewController.h */,
+				6DC1B93D246137A400421459 /* PageTwoViewController.m */,
+				6DC1B97F246884D200421459 /* PageThreeViewController.h */,
+				6DC1B980246884E200421459 /* PageThreeViewController.m */,
+				6DC1B96724646AE700421459 /* TimerPageViewController.h */,
+				6DC1B96824646AF200421459 /* TimerPageViewController.m */,
+				6DC1B9642463ABD700421459 /* AboutPageViewController.h */,
+				6DC1B9652463ABE800421459 /* AboutPageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6DC1B916245F1D1E00421459 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B93F2461EC4900421459 /* HomeView.h */,
+				6DC1B9402461EC5500421459 /* HomeView.m */,
+				6DC1B9442462014F00421459 /* FrameView.h */,
+				6DC1B9422462014200421459 /* FrameView.m */,
+				6DC1B961246353B700421459 /* MenuOptionCell.h */,
+				6DC1B962246353C600421459 /* MenuOptionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DC1B91B245F201900421459 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B9862468862400421459 /* PeopleTalking.mp3 */,
+				6DC1B982246885B500421459 /* Fan.mp3 */,
+				6DC1B98824688B2900421459 /* WaterStream.mp3 */,
+				6DC1B9842468860A00421459 /* FireWorks.mp3 */,
+				6DC1B975246876D700421459 /* Thunder.mp3 */,
+				6DC1B957246269DB00421459 /* Siren.mp3 */,
+				6DC1B95324625D3D00421459 /* Volcano.mp3 */,
+				6DC1B94F24625CE500421459 /* AirPlane.mp3 */,
+				6DC1B97D24687CE800421459 /* Walking.mp3 */,
+				6DC1B94D24625CBE00421459 /* City.mp3 */,
+				6DC1B977246878C700421459 /* Waves.mp3 */,
+				6DC1B92C245F855E00421459 /* FirePlace.mp3 */,
+				6DC1B91E245F202D00421459 /* Bird.mp3 */,
+				6DC1B92A245F814700421459 /* Wind.mp3 */,
+				6DC1B920245F202E00421459 /* Night.mp3 */,
+				6DC1B91F245F202D00421459 /* Rain.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		6DC1B95F24633F8900421459 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6DC1B96024633FA000421459 /* Protocols.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B6AC654F4924444971B4EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A43D46C11124D965726AEE9 /* Pods-NaturalSoundVibes.debug.xcconfig */,
+				7DF6E06965C0996A7D0595F7 /* Pods-NaturalSoundVibes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC1B8FA245F1BE300421459 /* NaturalSoundVibes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC1B911245F1BE400421459 /* Build configuration list for PBXNativeTarget "NaturalSoundVibes" */;
+			buildPhases = (
+				C128D94C19644302DA55EEB2 /* [CP] Check Pods Manifest.lock */,
+				6DC1B8F7245F1BE300421459 /* Sources */,
+				6DC1B8F8245F1BE300421459 /* Frameworks */,
+				6DC1B8F9245F1BE300421459 /* Resources */,
+				F447DC99C287F77D2268D6C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaturalSoundVibes;
+			productName = NaturalSoundVibes;
+			productReference = 6DC1B8FB245F1BE300421459 /* NaturalSoundVibes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC1B8F3245F1BE300421459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = John;
+				TargetAttributes = {
+					6DC1B8FA245F1BE300421459 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6DC1B8F6245F1BE300421459 /* Build configuration list for PBXProject "NaturalSoundVibes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC1B8F2245F1BE300421459;
+			productRefGroup = 6DC1B8FC245F1BE300421459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC1B8FA245F1BE300421459 /* NaturalSoundVibes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC1B8F9245F1BE300421459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC1B92B245F814700421459 /* Wind.mp3 in Resources */,
+				6DC1B924245F202E00421459 /* Rain.mp3 in Resources */,
+				6DC1B90B245F1BE400421459 /* LaunchScreen.storyboard in Resources */,
+				6DC1B976246876D700421459 /* Thunder.mp3 in Resources */,
+				6DC1B97E24687CE800421459 /* Walking.mp3 in Resources */,
+				6DC1B923245F202E00421459 /* Bird.mp3 in Resources */,
+				6DC1B908245F1BE400421459 /* Assets.xcassets in Resources */,
+				6DC1B9852468860A00421459 /* FireWorks.mp3 in Resources */,
+				6DC1B95424625D3E00421459 /* Volcano.mp3 in Resources */,
+				6DC1B9872468862400421459 /* PeopleTalking.mp3 in Resources */,
+				6DC1B94E24625CBE00421459 /* City.mp3 in Resources */,
+				6DC1B958246269DC00421459 /* Siren.mp3 in Resources */,
+				6DC1B92D245F855E00421459 /* FirePlace.mp3 in Resources */,
+				6DC1B925245F202E00421459 /* Night.mp3 in Resources */,
+				6DC1B98924688B2900421459 /* WaterStream.mp3 in Resources */,
+				6DC1B983246885B500421459 /* Fan.mp3 in Resources */,
+				6DC1B95024625CE500421459 /* AirPlane.mp3 in Resources */,
+				6DC1B978246878C700421459 /* Waves.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C128D94C19644302DA55EEB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalSoundVibes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F447DC99C287F77D2268D6C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaturalSoundVibes/Pods-NaturalSoundVibes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaturalSoundVibes/Pods-NaturalSoundVibes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaturalSoundVibes/Pods-NaturalSoundVibes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC1B8F7245F1BE300421459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC1B9662463ABE800421459 /* AboutPageViewController.m in Sources */,
+				6DC1B9412461EC5500421459 /* HomeView.m in Sources */,
+				6DC1B96924646AF200421459 /* TimerPageViewController.m in Sources */,
+				6DC1B963246353C600421459 /* MenuOptionCell.m in Sources */,
+				6DC1B93E246137A400421459 /* PageTwoViewController.m in Sources */,
+				6DC1B90E245F1BE400421459 /* main.m in Sources */,
+				6DC1B9742467599F00421459 /* TimerHandler.m in Sources */,
+				6DC1B900245F1BE300421459 /* AppDelegate.m in Sources */,
+				6DC1B981246884E200421459 /* PageThreeViewController.m in Sources */,
+				6DC1B9482462224F00421459 /* PageViewController.m in Sources */,
+				6DC1B9432462014200421459 /* FrameView.m in Sources */,
+				6DC1B9382461345400421459 /* HomeViewController.m in Sources */,
+				6DC1B91A245F1DA500421459 /* Sound.m in Sources */,
+				6DC1B93B2461367F00421459 /* PageOneViewController.m in Sources */,
+				6DC1B95E24632AD900421459 /* MenuViewController.m in Sources */,
+				6DC1B95B2463292800421459 /* ContainerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DC1B909245F1BE400421459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC1B90A245F1BE400421459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC1B90F245F1BE400421459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DC1B910245F1BE400421459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC1B912245F1BE400421459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A43D46C11124D965726AEE9 /* Pods-NaturalSoundVibes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = N3R5NNRND3;
+				INFOPLIST_FILE = NaturalSoundVibes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JohnIto.NaturalSoundVibe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DC1B913245F1BE400421459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF6E06965C0996A7D0595F7 /* Pods-NaturalSoundVibes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = N3R5NNRND3;
+				INFOPLIST_FILE = NaturalSoundVibes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JohnIto.NaturalSoundVibe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC1B8F6245F1BE300421459 /* Build configuration list for PBXProject "NaturalSoundVibes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC1B90F245F1BE400421459 /* Debug */,
+				6DC1B910245F1BE400421459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC1B911245F1BE400421459 /* Build configuration list for PBXNativeTarget "NaturalSoundVibes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC1B912245F1BE400421459 /* Debug */,
+				6DC1B913245F1BE400421459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC1B8F3245F1BE300421459 /* Project object */;
+}
